@@ -1,0 +1,127 @@
+.header {
+    display:flex;
+    justify-content:space-between;
+    padding: 8px;
+    gap:16px;
+    background-color: red;
+    align-items:center;
+    position:fixed;
+    left:8px;
+    right:8px;
+    top:0;
+    height:30px;
+}
+
+ul {
+    list-style-type:none;
+    display:flex;
+    gap:16px;
+    margin:16px;
+    padding:0;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+.leftlinks {
+    display:flex;
+    justify-content: space-between;
+}
+
+.rightside {
+    display:flex;
+    justify-content:space-between;
+}
+
+button {
+    background-color: blue;
+    border-radius:8px;
+    border:none;
+}
+
+.profileimage {
+    border:2px solid rebeccapurple;
+    border-radius:50%;
+    height:20px;
+    width:20px;
+    background-color:rebeccapurple;
+}
+
+input {
+    width:70px;
+}
+
+li {
+    display:flex;
+
+}
+
+.body {
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    height:60vh;
+    font-size:24px;
+    padding:24px; background:url("https://media-cdn.tripadvisor.com/media/photo-s/17/f5/39/f7/fooood-at-the-food-department.jpg");
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position:right;
+    color:white;
+    
+}
+
+.body h1 {
+    font-size:48px;
+    color:white;
+    text-align:center;
+    font-weight:1000px;
+}
+
+.body p {
+    margin-bottom: 32px;
+}
+
+.footerend {
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:darkgrey;
+}
+
+.footer {
+    display:flex;
+    background-color:lightgrey;
+}
+
+.col1 ul, .col2 ul, .col3 ul, .col4 ul{
+    flex-direction:column;
+}
+
+.footer .footerbody {
+    display:grid;
+    grid-template-columns:repeat(4,2fr);
+    grid-gap:100px;
+    text-align:left;
+    font-size:20px;
+    padding:24px;
+    text-align:left;
+}
+
+.footer ul {
+    text-decoration:underline;
+}
+
+.footer a {
+    color:blue;
+}
+
+body {
+    font-family:'Times New Roman', sans-serif;
+}
