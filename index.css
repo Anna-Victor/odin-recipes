@@ -12,6 +12,10 @@
     height:30px;
 }
 
+.header li:hover {
+    background:blue;
+} 
+
 ul {
     list-style-type:none;
     display:flex;
@@ -114,14 +118,14 @@ li {
     text-align:left;
 }
 
-.footer ul {
-    text-decoration:underline;
-}
-
 .footer a {
     color:blue;
 }
 
 body {
     font-family:'Times New Roman', sans-serif;
+}
+
+.footer li:hover {
+    background:darkgrey;
 }
